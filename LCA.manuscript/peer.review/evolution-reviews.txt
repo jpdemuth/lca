@@ -1,0 +1,112 @@
+Dear Mr. Blackmon:
+
+The manuscript 14-0889 entitled "An information-theoretic approach to estimating genetic architectures: moving beyond the joint-scaling test for line cross analysis", which you submitted to  Evolution has now been reviewed.  Associate Editor Dr. Dean Adams handled it, obtaining two reviews and writing an evaluation (all attached). Based on these evaluations, as well as my own, I regret to inform you that the manuscript is not suitable for publication in Evolution in its present form.  As you will see below, there is a view that the subject of statistical methodology and software for LCA, which also interests me, is better suited to a statistical journal, e.g. Biometrics, or perhaps Methods in Ecology and Evolution, and I find this view persuasive.  However, it seems to me that a manuscript focusing on how your methods alter the evolutionary interpretations of the cases you present has great potential to be appropriate for Evolution. Thus, I'm suggesting that you send a paper describing the method and software to another journal and prepare a revision for Evolution that can focus on how the method aids evolutionary inference.  My suggestion is a somewhat different resolution from the one Dr. Adams suggests below; his proposal also seems to me a reasonable approach.
+
+Therefore, although the issues raised preclude the manuscript's acceptance at this stage, I am declining the manuscript "without prejudice" regarding future resubmission.  If you are certain that you can fully address the issues raised, I encourage you to revise the manuscript and resubmit it.  Any revised version will be treated as a new submission and will be subject to the full peer review process. Please note that resubmitting your manuscript does not guarantee eventual acceptance. Of course, you are also free to submit elsewhere if you prefer.
+
+If you choose to resubmit this manuscript to Evolution, please include a cover letter mentioning this manuscript number and an itemized response to each of the comments or suggestions. For continuity, I would assign the manuscript to the same Associate Editor unless you specifically object to this (or the AE declines). In any event, I hope you find the reviews constructive.
+
+IMPORTANT: Though your original files are carried over to the resubmission, you will be unable to modify them. Please delete any redundant files before completing the submission. Any original files that do not require modifications may remain.
+
+Once you have revised your manuscript, go to http://mc.manuscriptcentral.com/evo and login to your Author Center. Click on "Manuscripts with Decisions," and then click on "Create a Resubmission" located next to the manuscript number. Then, follow the steps for resubmitting your manuscript.
+
+Thank you for submitting your work to Evolution.
+
+Sincerely,
+Dr. Ruth Shaw
+Editor in Chief, Evolution
+shawx016@umn.edu
+
+
+
+
+
+
+
+
+Associate Editor
+Comments to the Author:
+I have received two reviews of your manuscript and given it several careful readings myself. Both reviewers found much to like with the paper, though one review did note that the paper did not seem appropriate for Evolution. In certain respects I agree with this perspective, because as written, the paper reads like a software description note. That said however, I feel that the AIC-based approach for evaluating alternative models in LCA is novel, and if further developed would be a contribution that readers of Evolution would appreciate.
+
+In light of this, it seems that a completely re-written paper, de-emphasizing the software description and motivating the topic from its conceptual grounds (i.e., the AIC-based approach) would be potentially of interest. Next, the method would need to be validated through an expanded set of simulations (not just the 5 performed here), which ideally would address the type I and/or type II error of the approach with respect to identifying the correct underlying model. This could then lead to a brief 'implementation' section, where the software is described in an abbreviated form.
+
+Best,
+
+Dean
+
+
+
+
+
+
+Reviewer: 1
+
+My main concern with this paper is that it is basically a description of  a new piece of software.  This software seems very useful, and I think they do a great job of describing the software and why it is useful.  That said, I am not certain that it belongs in Evolution.  I see the journal as presenting new data and models that are conceptual advances in our understanding of nature, whereas this is a piece of software that provides a statistical advance, and a better way for us to understand data.  In addition, the average reader of Evolution will not be performing a sophisticated LCA.  Such readers will presumably do their homework, and find this article provided it is published in a quality journal.  In short, I think that this paper would be better suited for a more statistically oriented journal, such as JTB, Biometrica, or a more purely genetical journal such as Genetics, Genetica, or perhaps Heredity or one of the PLoS journals.  It hurts me to give a negative review for what is a very high quality publication.  The problem is not with the research, but with its appropriateness for Evolution.
+
+As far as the introduction goes, my thought is to ask what exactly is being discovered when you perhaps find a “best fit model”.  It may make sense to remind readers that a genetic effect from a LCA will not map on to a specific invariant genetic feature.  As I am sure the authors are aware, a specific effect, such as an Aa effect is only such in the context of the specific cross being performed.  Perhaps this is obvious to those that read this, but I think it is worth considering adding a bit of discussion on the topic.
+
+
+page 12, Line 239:  Any special reason that 4.58 was chosen?
+
+
+
+
+
+
+
+
+Reviewer: 2
+
+This is a very good manuscript that focuses on line cross analysis and the accurate estimates of model parameters.  I am quite enthusiastic about what this paper (and R package) proposes to do.  I think a lot of folks probably suffer with 'picking the right model' with LCA.  Most of us probably suffer from the fact that we have certain parameter estimates that turn up no matter how we run the analyses and others that 'blink in and out' depending on the model.  So we have an intuitive feel for what the data say, but then are stuck with having to pick a 'best fit' model and interpreting it.  The strength of this statistical approach is that it allows for the estimation of the various parameters across several models that might be close to one another in terms of model support (i.e. no clear cut best model).  This is a pretty useful thing.
+
+
+Specific Details
+
+lines 45-46: "The answers to these broad questions and many other, more specific ones rely fundamentally . . . "  I found myself wondering what these other, more specific questions are.
+
+Lines 137-143:  When I first read this bit, I found myself wondering if it would be good to give an example of this.  I knew what you were referring to, but I found myself wondering whether a graduate student would.  But then I realized that it was good that you held off on this because you don't introduce the various terms until later.
+
+line 165: add comma after 'greater'
+line 166: add comma after 'threshold'
+line 170: add comma after 'errors'
+
+line 196-201: As I was reading this, I found myself thinking 'when are they going to introduce those terms'.
+
+line 234: add comma after 'LCA'
+
+Lines 237-239:  How many terms had an effect of 0?
+
+line 249: add comma after 249
+
+line 256: add 'it' between  "because it is"
+
+line 261-266:  I found myself wondering which data sets were which.
+
+
+line 275: comma after 'data'
+
+Figure 1: I understand figure 1, but the thing that caused me to pause on this is the fact that the different curves have different numbers of observations.  If you simulated the data 250 times, then you have 250 observations for the mean, 750 observations for the 3 CGEs, and an unknown number of observations for the terms with an effect of 0.  It's not a huge issue, but the pooling of the terms gave me a bit of pause.
+
+Lines 284-288:  Good.
+
+Line 301:  I would be a bit more forceful with the writing here.  "Table 1 shows . . . "  Make the reader go look at it more forcefully.
+
+Table 1: This is minor, but I would include the abbreviation vi somewhere in the legend or table headings to make everything a little bit more cohesive.
+
+lines 315-316: semi-colons after each clause
+
+lines 320-329:  It is easy to get lost in all of the datasets.  I think it would be easier to refer to 'simulated data set 1' or 'simulated data set 2', and 'empirical data set 1', etc.
+
+lines 335-337: comma after 0.72  -  Also, this sentence is a bit clunky.  You might think about simplifying it.
+
+lines 436-438: a bit of a clunky sentence
+
+Table 2:  Reiterate the fact that data sets 1 and 2 came from the Miller study and datasets 3-17 came from Demuth.
+
+Figure 2: repeat in the figure legend that you used the simple model estimates in this case because there was a single, unambiguous best fit model.
+
+Figure 3 (and lines 330-340):   Just out of curiosity . . . if you had to pick 'the best' model, would the interpretation have been much different from the interpretation presented here?
+
+Figure 4: Which empirical data set is this one?  Spell it out in the figure legend.  The figures should be understandable on their own.  Somewhere it should say that this is an empirical data set with a signature of 'high' model uncertainty.
+
+Figure 5:  I am a little bit confused by this figure.  I understand that each square is a different model.  But when I stop and think about what is on the X- and Y-axis here (and how they combine), I get quite confused.  What happens when you have some model parameters that can't be estimated?  Is the box an X?  Or is it missing?  Or am I not thinking about this correctly?
